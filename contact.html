@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> Contact me </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1> Contact me!💬</h1>
+            <p> By filling the form we can be in touch! <br> If you had any concerns, suggestions, or feedback, you can fill out the below form or contact me through my Email.<br> Check out the form below:</p>
+        </header>
+        <main>
+            <h1> Form: </h1>
+            <form action="./submit.html">
+                <div class="required-star">
+                    <label> Your full name:<span>*</span></label>
+                    <input type="text" required><br><br>
+                    <label> Your email: <span>*</span> </label>
+                    <input type="email" required><br><br>
+                    <label> Gender: <span>*</span></label><br>
+                    <input type="radio" name="gender" id="Female" required >
+                    <label for="Female">Female </label><br>
+                    <input type="radio" name="gender" id="Male" >
+                    <label for="Male"> Male </label><br>
+                    <input type="radio" name="gender" id="none">
+                    <label for="none"> Prefer not to say </label> <br><br>
+                    <label for="message"> Your message:<span>*</span> </label><br><br>
+                    <textarea id="message" name="message" rows="5" cols="40" placeholder="Write your message here...." required></textarea><br><br>
+                    <label> Prefered contact method: <span>*</span></label> <br>
+                    <input type="checkbox" name="contact-method" id="email" >
+                    <label for="email"> Email </label><br>
+                    <input type="checkbox" name="contact-method" id="WhatsApp" required>
+                    <label for="WhatsApp"> WhatsApp </label><br>
+                    <input type="checkbox" name="contact-method" id="Social media">
+                    <label for="Social media"> Social media </label><br><br>
+                    <label> Prefered Language to communicate:<span>*</span></label><br><br>
+                    <select required>
+                        <option value="" disabled selected>Select a language</option>
+                        <option value="Dari" required>Dari</option>
+                        <option value="English">English</option>
+                        <option value="Pashto">Pashto</option>
+                        <option value="Spanish">Spanish</option>
+                        <option value="arabic">Arabic</option>
+                        <option value="chinese">Chinese</option>
+                    </select><br><br>
+                </div>
+                <input type="submit">
+            </form><br>
+            <h3> Alternative option: Email</h3>
+            <p> If filling the form seems overwhelminng you can always reachout by emailing me. <br> <a href="mailto:hannan.mirzaei@gmail.com">Email me!</a> </p>
+            <p> Go back to <a href="./index.html"> Home</a> page. </p>
+        </main>
+    </body>
+</html>

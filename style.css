@@ -1,0 +1,25 @@
+body{
+    background-color:#D4C9BE;
+}
+img{
+    height:400px;
+    width:400px;
+    border-style:outset;
+    border-width: 3px;
+    border-color:#123458
+}
+hr{
+    border-color:#123458;
+}
+footer{
+    background-color:#EFE9E1;
+    font-style:italic;
+    text-align:center;
+}
+.my-gallery td{
+    padding: 15px;
+    
+}
+.required-star span{
+    color:rgb(190, 24, 24);
+}
